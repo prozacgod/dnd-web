@@ -1,0 +1,21 @@
+{
+  "name": "adamite-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "adamite start",
+    "start:auth": "adamite start auth",
+    "start:database": "adamite start database",
+    "start:functions": "adamite start functions",
+    "start:api": "adamite start api"
+  },
+  "dependencies": {
+    "@adamite/api": "^0.1.0-beta.1",
+    "@adamite/cli": "^0.2.0-beta.2",
+    "@adamite/sdk": "^0.2.0-beta.4",
+    "@adamite/service-auth": "^0.1.0-beta.5",
+    "@adamite/service-database": "^0.1.0-beta.10",
+    "@adamite/service-functions": "^0.1.0-beta.8"
+  }
+}

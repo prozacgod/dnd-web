@@ -1,0 +1,47 @@
+.CharacterSheet {
+  padding: 10px;
+  width: 900px;
+  background-color: antiquewhite;
+}
+
+.PersonalAttributes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.FlexGrow {
+  flex-grow: 1;
+}
+
+.QuarterWidth {
+  width: 25%;
+}
+
+.SheetRow {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  clear: left;
+}
+
+.SheetColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.SheetInput {
+  padding: 2px;
+}
+
+.NoMargin {
+  margin: 0;
+}
+
+.SheetClassEditors {
+  /* padding: 10px; */
+}
+
+.SpaceBetween {
+  justify-content: space-between;
+}

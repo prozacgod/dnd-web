@@ -1,0 +1,1 @@
+require('@adamite/api')(require('../adamite.js'));
